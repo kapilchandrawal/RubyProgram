@@ -7,4 +7,10 @@ if a == 5
     puts "HI"
 end
 
-print "Kapil"
+# Or operator in Ruby 
+grade1 = 50
+grade2 = 30
+grade3 = 80
+if grade1 > grade3 || grade1 > grade2
+    puts "Grade1 is not the lowest score!"
+end
