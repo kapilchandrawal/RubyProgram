@@ -39,3 +39,19 @@ unless x>=2
  else
    puts "x is greater than 2"
 end
+
+# Create file 
+fileobject = File.new("sample.txt", "w+"); 
+fileobject.syswrite("File Handling"); 
+fileobject.close();                        
+
+fileobject = File.open("sample.txt", "r");
+
+# Methods and Blocks
+def test ()
+    puts "Method code"
+    yield
+end
+test {
+    puts "Block code"
+}
