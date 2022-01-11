@@ -26,8 +26,16 @@ score1 = 60
 score2 = 50
 score3 = 40
 if score1 > score2 && score1 > score3
-    print "Score 1 is the greatest in value."
+    puts "Score 1 is the greatest in value."
 else
-    print "Score 1 is not the greatest in value."
+    puts "Score 1 is not the greatest in value."
 end
       
+# Unless statement in Ruby
+
+x = 1 
+unless x>=2
+   puts "x is less than 2"
+ else
+   puts "x is greater than 2"
+end
