@@ -14,3 +14,9 @@ grade3 = 80
 if grade1 > grade3 || grade1 > grade2
     puts "Grade1 is not the lowest score!"
 end
+
+# If statement in Ruby
+number = 10
+if number == 10
+    puts "Your condition was true!"
+end
