@@ -55,3 +55,24 @@ end
 test {
     puts "Block code"
 }
+
+i = 0
+num = 5
+
+
+while i < num  
+   puts("Inside the loop i = #{i}" )
+   i +=1
+end
+
+
+# for i in 1..100 
+#     puts "#{i}"
+# end
+
+x = 1
+while x<=100
+    puts "#{x}"
+    x+=1
+end
+
